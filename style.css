@@ -71,3 +71,21 @@ aside {
   border-bottom: 5px solid #1098ad;
   background-color: #f7f7f7;
 }
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:hover {
+  color:orangered;
+  font-weight: bold;
+  text-decoration: underline ;
+}
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
