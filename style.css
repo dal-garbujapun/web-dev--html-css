@@ -8,6 +8,12 @@ body {
   color: #444;
 }
 
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
