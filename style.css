@@ -47,3 +47,8 @@ li {
 #copyright {
   font-size: 16px;
 }
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
