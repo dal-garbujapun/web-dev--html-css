@@ -25,6 +25,14 @@ article {
 .post-header {
   margin-bottom: 40px;
 }
+
+aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  background-color: #f7f7f7;
+  padding: 50px 0;
+  width: 500px;
+}
 /* h1, h2, h3, h4, p, li{
 } */
 
@@ -100,32 +108,23 @@ li:last-child {
   list-style: none;
 }
 
-
-aside {
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  background-color: #f7f7f7;
-  padding: 50px 0;
-}
-
 a:link {
   color: #1098ad;
   text-decoration: none;
 }
+
 a:visited {
   color: #1098ad;
   text-decoration: none;
 }
+
 a:hover {
   color:orangered;
   font-weight: bold;
   text-decoration: underline ;
 }
+
 a:active {
   background-color: #000;
   font-style: italic;
 }
-
-
-
-
