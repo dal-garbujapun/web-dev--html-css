@@ -3,6 +3,11 @@ body {
   color: #444;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+}
+
 /* h1, h2, h3, h4, p, li{
 } */
 
@@ -65,9 +70,6 @@ li {
   list-style: none;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
 
 aside {
   border-top: 5px solid #1098ad;
