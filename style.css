@@ -12,6 +12,8 @@ body {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+
 }
 
 .main-header {
@@ -40,10 +42,13 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
 /* h1, h2, h3, h4, p, li{
 } */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #1098ad;
 }
 
@@ -70,25 +75,27 @@ h4 {
   text-align: center;
 }
 
-p{
+p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 50px;
   margin-bottom: 20px;
 }
 
 li {
-  font-size:20px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 li:last-child {
   margin-bottom: 0;
 }
+
 /* footer p { */
 /*   font-size: 16px; */
 /* } */
@@ -133,9 +140,9 @@ a:visited {
 }
 
 a:hover {
-  color:orangered;
+  color: orangered;
   font-weight: bold;
-  text-decoration: underline ;
+  text-decoration: underline;
 }
 
 a:active {
@@ -146,4 +153,13 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
