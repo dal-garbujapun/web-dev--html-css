@@ -199,3 +199,15 @@ a:link {
 .container {
   width: 1200px;
 }
+
+.author-box {
+  display: flex;
+  /* gap: 15px; */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
